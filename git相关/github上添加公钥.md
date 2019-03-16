@@ -3,5 +3,7 @@
 
 #
 1、打开git bash使用ssh -T git@github.com命令测试是否有公钥
+
 2、如果没有则使用ssh-keygen -t rsa -C 'testAccount'命令生成一个key，（testAccount是你的github账户名称）
+
 3、生成成功之后找到.ssh/id_rsa.pub文件，把里面的key添加到你的github上
