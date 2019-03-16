@@ -59,7 +59,8 @@ vue的数据双向绑定 将MVVM作为数据绑定的入口，整合Observer，C
 
 # 8、vue如何监听键盘事件中的按键？
 在vue中，已经为常用的按键设置了别名，这样我们就无需再去匹配keyCode，直接使用别名就能监听按键的事件，且vue中还支持组合写法  
-`<input @keyup.enter="function">`
+> `<input @keyup.enter="function">`
+
 别名|实际键值
 :--|:--:
 .delete|delete（删除）/BackSpace（退格）
