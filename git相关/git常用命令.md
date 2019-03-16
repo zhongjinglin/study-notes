@@ -1,4 +1,6 @@
 # git常用命令
+### 提交添加到缓存区的文件：git commit -m '备注'
+### 提交修改过，但是没有添加到缓存区的文件：git commit -a -m '备注'
 ### 本地库初始化：git init
 ### 查看本地分支：git branch
 ### 查看远程分支：git branch -r
