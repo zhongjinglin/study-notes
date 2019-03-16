@@ -96,6 +96,6 @@ v-if按照条件是否渲染，v-show是display的block或none
 
 # 12、v-on可以绑定多个方法吗？
 可以绑定多个方法  
-`<input v-on:keyup.enter="submit" v-on:focus="onFocus">`
+> `<input v-on:keyup.enter="submit" v-on:focus="onFocus">`
 
 
