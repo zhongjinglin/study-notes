@@ -1,5 +1,5 @@
 # 1、对于MVVM的理解
-**MVVM是Model-View-ViewModel的缩写**  
+**MVVM 是Model-View-ViewModel的缩写**  
 **Model** 代表数据模型，可以在Model中定义数据修改和操作的业务逻辑  
 **View** 代表UI组件，负责将数据模型转化成UI展现出来  
 **ViewModel** 监听模型数据的改变和控制视图行为、处理用户交互，用来连接Model和View
