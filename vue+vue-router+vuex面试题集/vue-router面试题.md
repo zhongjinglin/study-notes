@@ -69,10 +69,19 @@ router.beforeEnter((to, from, next) => {
 11. 触发 DOM 更新。
 12. 用创建好的实例调用 beforeRouteEnter 守卫中传给 next 的回调函数。
 
-# 3、$route和$router的区别
+# 3、vue-router实现路由懒加载（ 动态加载路由 ）
+1. vue异步组件
+2. es提案的import()
+3. webpack的require,ensure()
+
+# 4、vue-router的动态路由匹配以及使用
+
+# 5、$route和$router的区别
 1. $route是 **路由信息对象**，包括path，params，hash，query，fullPath，matched，name等路由信息参数
 2. $router是 **路由实例**，包括了路由的跳转方法，钩子函数等
 
-# 4、vue-router路由的两种模式
+# 6、vue-router路由的两种模式
 1. hash 模式（默认）
 2. history 模式
+
+# 7、`<router-link></router-link>` 组件及其属性

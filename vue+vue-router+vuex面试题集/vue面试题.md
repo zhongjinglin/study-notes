@@ -102,4 +102,8 @@ v-if按照条件是否渲染，v-show是display的block或none
 可以绑定多个方法  
 > `<input v-on:keyup.enter="submit" v-on:focus="onFocus">`
 
+# 13、vue中如何利用 keep-alive 标签实现某个组件缓存功能
 
+# 14、vue中央事件总线的使用
+
+# 15、vue如何优化首屏加载速度
