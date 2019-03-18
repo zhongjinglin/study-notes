@@ -4,6 +4,14 @@
 ① **全局前置守卫**
 
 可以使用 **router.beforeEach** 注册一个全局前置守卫，每个守卫方法接收三个参数
+```
+const router = new VueRouter({ ... })
+
+router.beforeEach((to, from, next) => {
+  // ...
+})
+
+```
 
 1. `to`：Route：即将进入的目标路由对象
 
@@ -30,7 +38,7 @@ router.afterEach((to, from) => {
 ```
 ④ **路由独享的守卫** `beforeEnter`，与全局前置守卫的方法参数是一样的
 ```
-router.afterEach((to, from, next) => {
+router.beforeEnter((to, from, next) => {
   // ...
 })
 ```
