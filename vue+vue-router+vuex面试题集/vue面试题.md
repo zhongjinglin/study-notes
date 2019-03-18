@@ -46,8 +46,10 @@ vue的数据双向绑定 将MVVM作为数据绑定的入口，整合Observer，C
 > 创建一个事件中心，相当于中转站，可以用它来传递事件和接收事件
 
 # 6、vue常用的事件修饰符
-**prevent** 提交事件不再重载页面  
-**stop** 阻止单击事件冒泡  
+> 详情查看官网 [事件修饰符](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
+
+**prevent** 阻止默认事情(event.preventDefault())  
+**stop** 阻止单击事件冒泡(event.stopPropagation())  
 **self** 当事件发生在该元素本身而不是子元素的时候会触发  
 **capture** 事件捕获，事件发生的时候会调用  
 **once** 事件将只会触发一次
@@ -60,6 +62,8 @@ vue的数据双向绑定 将MVVM作为数据绑定的入口，整合Observer，C
 # 8、vue如何监听键盘事件中的按键？
 在vue中，已经为常用的按键设置了别名，这样我们就无需再去匹配keyCode，直接使用别名就能监听按键的事件，且vue中还支持组合写法  
 > `<input @keyup.enter="function">`
+
+> 详情查看官网 [按键修饰符](https://cn.vuejs.org/v2/guide/events.html#%E6%8C%89%E9%94%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6)
 
 别名|实际键值
 :--|:--:
