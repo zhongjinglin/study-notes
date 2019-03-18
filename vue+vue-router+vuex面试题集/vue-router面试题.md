@@ -10,7 +10,6 @@ const router = new VueRouter({ ... })
 router.beforeEach((to, from, next) => {
   // ...
 })
-
 ```
 
 1. `to`：Route：即将进入的目标路由对象
