@@ -63,10 +63,9 @@ router.afterEach((to, from, next) => {
 12. 用创建好的实例调用 beforeRouteEnter 守卫中传给 next 的回调函数。
 
 # 3、$route和$router的区别
-① $route是 **路由信息对象**，包括path，params，hash，query，fullPath，matched，name等路由信息参数
-
-② $router是 **路由实例**，包括了路由的跳转方法，钩子函数等
+1. $route是 **路由信息对象**，包括path，params，hash，query，fullPath，matched，name等路由信息参数
+2. $router是 **路由实例**，包括了路由的跳转方法，钩子函数等
 
 # 4、vue-router路由的两种模式
-* hash 模式（默认）
-* history 模式
+1. hash 模式（默认）
+2. history 模式
