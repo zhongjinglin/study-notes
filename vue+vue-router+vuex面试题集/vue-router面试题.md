@@ -8,6 +8,9 @@
 ④ 路由独享的守卫
 
 ⑤ 组件内的守卫
+* beforeRouteEnter
+* beforeRouteUpdate (2.2 新增)
+* beforeRouteLeave
 
 # 2、完整的导航解析流程
 > 详情查看官网 [完整的导航解析流程](https://router.vuejs.org/zh/guide/advanced/navigation-guards.html#%E7%BB%84%E4%BB%B6%E5%86%85%E7%9A%84%E5%AE%88%E5%8D%AB)
