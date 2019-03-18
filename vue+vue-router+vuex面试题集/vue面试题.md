@@ -49,7 +49,7 @@ vue的数据双向绑定 将MVVM作为数据绑定的入口，整合Observer，C
 > 详情查看官网 [事件修饰符](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
 
 **prevent** 阻止默认事情(event.preventDefault())  
-**stop** 阻止单击事件冒泡(event.stopPropagation())  
+**stop** 阻止事件继续传播(event.stopPropagation())  
 **self** 当事件发生在该元素本身而不是子元素的时候会触发  
 **capture** 事件捕获，事件发生的时候会调用  
 **once** 事件将只会触发一次
